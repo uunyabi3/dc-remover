@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+src-tauri/target/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Lock files (optional - remove if you want to track)
+package-lock.json
+Cargo.lock
+
+# Tauri
+src-tauri/target/
+src-tauri/gen/
+WixTools/
+
+# Temp
+*.tmp
+*.temp

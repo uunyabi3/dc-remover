@@ -1,0 +1,11 @@
+    Checking dc-cleaner-tauri v0.1.0 (C:\Users\nyabi\Documents\Code\Projects\dc-remover\dc-cleaner-tauri\src-tauri)
+warning: struct `PostInfo` is never constructed
+  --> src\core\scraper.rs:13:12
+   |
+13 | pub struct PostInfo {
+   |            ^^^^^^^^
+   |
+   = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: `dc-cleaner-tauri` (lib) generated 1 warning
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.24s
